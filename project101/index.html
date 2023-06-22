@@ -9,26 +9,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="contentbox">
-        <h3 class="regis">Registor</h3>        
+    <div class="container">
+        <h3 class="tital1">Asynchronous</h3> 
         <form action="" class="form1">
-            <div id="id">
-                <label for="ID">Username: </label>
-                <input type="text" id="frameuser">
-            </div>
-            <div id="pass">
-                <label for="password">Password:</label>
-                <input type="password" id="framepass">
-            </div>
+            <label for="ID" id="user">Username</label>
+            <input type="text" id="frameuser" required>
+            <label for="password" id="pass">Password</label>
+            <input type="password" id="framepass" required>
+            <input type="submit" id="submitbtn" value="Login">
         </form>
-        <div class="bsign">
-            <button id="signin">
-                <b>Sign in</b>
-                <a href="regis_page.html"></a>
-            </button>
-        </div>
-        <div id="signup">
-            <a href="regis_page.html">Sign up</a>
+        <div>
+            <p id="signup">
+                New User? <a href="regis_page.html" target="_blank">Sign Up</a>
+            </p>
         </div>
     </div>
 </body>
