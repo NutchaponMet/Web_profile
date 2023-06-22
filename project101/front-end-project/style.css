@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+html{
+    /* Desktop - 1 */
+    background: #393B57;
+    background-image: url(all_picture/abstract-colorful-space-colors-art-4k-ipad-pro\ 1.svg);
+    display: flex;
+    justify-content: center;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+.container{
+    margin-top: 100px;
+    background: gray;
+    background-color: rgba(0, 0, 0, .50);
+    height: 450px;
+    width: 600px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* opacity: 1; */
+}
+.tital1 {
+    position: relative;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Itim',cursive;
+    color: #fff;
+    /* -webkit-text-stroke: .2px black; */
+}
+
+.form1{
+    /* text-align: center; */
+    font-family: 'Itim',cursive;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 200px;
+}
+#user,#pass{
+    padding: 5px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+#submitbtn{
+    margin: 10px;
+    padding: 10px;
+    width: 70px;
+    /* align-items: center; */
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background-color: #4CAF50;
+    color: #fff;
+}
+#signup{
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Itim',cursive;
+}
+a{
+    font-size: 20px;
+
+}
+a:link, a:visited {
+    color: white;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    font-weight: bold;
+    color: #4CAF50;
+    font-size: 30px;
+}
+
+#frameuser,#framepass{
+    /* width: 100%; */
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
