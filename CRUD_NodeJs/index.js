@@ -5,7 +5,7 @@ const port = 8000
 const mongoose = require('mongoose')
 
 //  Connect MongoDB
-const dburi = 'mongodb+srv://admin:<password>@cluster0.fexcoq1.mongodb.net/?retryWrites=true&w=majority'
+const dburi = 'mongodb+srv://admin:<password>@'
 mongoose.connect(dburi,{
     useNewUrlParser:true,
 }).catch(err=> console.log(err))
